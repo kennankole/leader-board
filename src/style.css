@@ -17,7 +17,6 @@ li {
   width: 50%;
 }
 
-
 form {
   display: flex;
   flex-direction: column;
@@ -44,7 +43,6 @@ form {
   width: 100%;
   padding: 0 8%;
 }
-
 
 .name {
   padding: 0 8%;
