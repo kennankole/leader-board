@@ -10,7 +10,7 @@ const getScores = async (url, scoreList) => {
 	scoreList.innerHTML = ''
 	return dataForm.result.forEach((item) => {
 		scoreList.innerHTML += `
-		<li>${item.user}:${item.score}</li>
+		<li class="players-li">${item.user}:${item.score}</li>
 		`;
 	})
     
