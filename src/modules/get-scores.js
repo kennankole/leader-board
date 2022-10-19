@@ -1,4 +1,3 @@
-
 const getScores = async (url, scoreList) => {
 	const response = await fetch(url, {
 		method: 'GET',

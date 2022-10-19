@@ -13,12 +13,6 @@ export const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/a
 // GET Request
 freshBtn.addEventListener('click', () => {
 	getScores(url, scoreList);
-	// scoreList.innerHTML = ''
-	// return dataForm.result.forEach((item) => {
-	// 	scoreList.innerHTML += `
-	// 	<li>${item.user}:${item.score}</li>
-	// 	`;
-	// });
 })
 
 // POST Request 
@@ -35,6 +29,3 @@ form.addEventListener('submit', (e) => {
 	yourName.value = '';
 	score.value = '';
 })
-
-
-
