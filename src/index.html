@@ -13,14 +13,20 @@
         <div class="scores-container" id="scores-container">
             <div class="refresh-btn">
                 <h3>Recent scores</h3>
-                <button type="submit">Refresh</button>
+                <div class="score-lists">
+                    <ul id="score-list-elem"></ul>
+                </div>
+                <button type="submit" class="scores-btn">Refresh</button>
             </div>
         </div>
         <div class="input-container">
             <h3>Add your score</h3>
-            <input type="text" name="name" id="name" placeholder="Your name">
-            <input type="text" name="score" id="score" placeholder="Your score">
-            <input type="submit" value="Submit">
+            <form action="" id="form">
+                <input type="text" name="name" id="name" placeholder="Your name">
+                <input type="text" name="score" id="score" placeholder="Your score">
+                <input type="submit" value="Submit">
+            </form>
+            
         </div>
     </section>
 </body>
