@@ -9,11 +9,15 @@
 <body>
 	<h1 class="title">Leaderboard</h1>
 
-	<section class="home-page" id="home-page">
+	<section>
+		<div class="home-page" id="home-page">
 			<div class="scores-container" id="scores-container">
 				<div class="refresh-btn">
-					<h3>Recent scores</h3>
-					<input type="submit" class="scores-btn" value="Refresh">
+					<div class="btn-text"><h3>Recent scores</h3></div>
+					<div class="btn-btn">
+						<input type="submit" class="scores-btn" value="Refresh">
+					</div>
+					
 				</div>
 				
 				<div class="score-lists">
@@ -26,9 +30,11 @@
 				<form action="" id="form">
 						<input type="text" name="name" id="name" placeholder="Your name">
 						<input type="text" name="score" id="score" placeholder="Your score">
-						<input type="submit" value="Submit">
+						<input type="submit" value="Submit" id="submit-btn">
 				</form>
 			</div>
+		</div>
+			
 	</section>
 </body>
 </html>
