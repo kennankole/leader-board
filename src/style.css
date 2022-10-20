@@ -57,7 +57,7 @@ form {
   padding: 20px;
 }
 
-.players-li:nth-child(odd) {
+.players-li:nth-child(even) {
   background-color: grey;
 }
 
