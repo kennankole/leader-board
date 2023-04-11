@@ -1,8 +1,5 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Leaderboard score board app
-
-> Description the project.
 - This project demonstrate a simple way of interacting with the Leaderboard API 
 by making POST and GET requests to the respective endpoints.. 
 and also keep your code clean by using ES6 modules. 
